@@ -15,7 +15,7 @@ elif (menu=="b"):
     print(f"Vas a pagar: {precio}€")
 elif (menu=="c"): 
     peso=float(input("Introduce el peso de tu camion: "))
-    precio=0.25*km_recorridos+0.15*peso
+    precio=0.25*km_recorridos+0.15*(peso*1000)
     print(f"Vas a pagar: {precio}€")
 else:
     print("Opcion incorrecta")

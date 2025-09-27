@@ -1,3 +1,7 @@
+"""
+Exercicio 2. Escribe unha función en Python so_pares(lista: List) -> List que reciba unha lista de números e devolva unha nova lista que conteña só os números pares da lista orixinal.
+"""
+
 lista1=[1, 2, 3, 4, 5]
 
 

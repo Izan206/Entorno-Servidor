@@ -7,7 +7,7 @@ from typing import Dict, List
 
 def valor_maximo(dicionario: Dict[str, int]) -> List[str]:
     valor_maximo=None
-    claves= []
+    claves=[]
     for clave, valor in dicionario.items():
         if valor_maximo is None or valor>valor_maximo:
             valor_maximo=valor
